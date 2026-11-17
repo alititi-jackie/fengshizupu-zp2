@@ -138,6 +138,11 @@ def index_page(books):
 DL_BASE = "https://github.com/alititi-jackie/fengshizupu-zp2/releases/download/b-20261116"
 
 
+def article_line(b):
+    if b.get("article"):
+        return f'<p>本谱介绍：<a href="{b["article"]}">{b["article_title"]}</a></p>'
+    return ""
+
 def book_page(b):
     rows = ""
     for v in b["volumes"]:
@@ -154,6 +159,7 @@ def book_page(b):
 <p><strong>全书规模：</strong>{len(b["volumes"])} 册，共 {book_total_pages(b)} 页</p>
 </div>
 <p>{b["intro"]}</p>
+{article_line(b)}
 <section class="block"><h2>各册阅读</h2>
 <div class="list">
 {rows}</div></section>
