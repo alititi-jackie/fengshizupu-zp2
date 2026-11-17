@@ -128,3 +128,5 @@
 .archives-pager a{color:var(--red);text-decoration:none}
 .archives-pager a:hover{text-decoration:underline}
 .archives-pager-top{justify-content:flex-start;margin:0 0 20px}
+
+.pageimg{margin:0 0 22px}
