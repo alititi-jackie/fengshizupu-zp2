@@ -2,13 +2,14 @@ name: build
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   build:
@@ -37,11 +38,28 @@ jobs:
                   with urllib.request.urlopen(req, timeout=600) as r, open(name, "wb") as f:
                       f.write(r.read())
           PYEOF
+      - name: Verify shared UI release
+        run: python3 scripts/check_family.py
       - name: Generate site
         run: python3 scripts/generate.py
       - name: Render page images
         run: python3 scripts/render_pages.py --books data/books.json --pdf-dir pdfs --out site
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Verify mobile and desktop UI
+        run: |
+          npm install --prefix work/browser --no-package-lock playwright@1.58.2
+          work/browser/node_modules/.bin/playwright install chromium --with-deps
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory site &
+          NODE_PATH="$PWD/work/browser/node_modules" node tests/browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: family-ui-screenshots
+          path: site-*.png
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
