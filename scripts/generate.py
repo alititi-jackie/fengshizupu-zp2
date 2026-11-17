@@ -84,7 +84,7 @@ MAIN_SECTIONS = """
 <section class="home-news"><div class="home-news-head"><h2>冯氏资讯</h2><a href="https://fengshizupu.com/news/">全部资讯 ›</a></div>
 <p class="home-news-item"><span class="badge">人物</span> <a href="https://fengshizupu.com/news/enping/feng-ru-enping-aviation/">从恩平杏圃村到美国奥克兰：冯如的航空生涯</a> <small>2026 年 11 月 15 日</small></p>
 <p class="home-news-item"><span class="badge">指南</span> <a href="https://fengshizupu.com/news/enping/enping-feng-juanshou-guide/">第一次翻《恩平冯氏族谱》卷首，先看哪几页？</a> <small>2026 年 11 月 15 日</small></p></section>
-<a class="enping-card" href="https://enping.fengshizupu.com" target="_blank" rel="noopener noreferrer"><span class="enping-seal">冯</span><span class="enping-body"><span class="enping-title">《恩平冯氏族谱》全书在线查阅</span><span class="enping-motto">寻根溯源 · 世系传承</span><span class="enping-intro">恩平冯氏总谱全书 1,269 页逐页看图，可按房支、村庄查找<span class="enping-more">　去看全书 ›</span></span></span><span class="enping-btn">看全书</span></a>
+<a class="enping-card" href="https://enping.fengshizupu.com"><span class="enping-seal">冯</span><span class="enping-body"><span class="enping-title">《恩平冯氏族谱》全书在线查阅</span><span class="enping-motto">寻根溯源 · 世系传承</span><span class="enping-intro">恩平冯氏总谱全书 1,269 页逐页看图，可按房支、村庄查找<span class="enping-more">　去看全书 ›</span></span></span><span class="enping-btn">看全书</span></a>
 <article><h2>各地族谱</h2><p>从各地族谱入口查阅原书、续修谱和世系资料。</p><a href="https://fengshizupu.com/archives/">进入族谱目录 →</a></article>
 <section><h2>冯氏宗亲网站</h2><ul>
 <li><a href="http://www.feng0762.com/" target="_blank" rel="noopener noreferrer">冯氏宗亲网</a> — 冯氏宗亲论坛，各地宗亲会与寻根交流</li>
