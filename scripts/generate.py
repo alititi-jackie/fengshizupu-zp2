@@ -90,7 +90,7 @@ PAGER_BOTTOM = '<nav class="archives-pager" aria-label="分页"><a href="https:/
 
 
 def footer():
-    return f"""<footer class="site-footer"><a href="{MAIN}/contribute/">宗亲投稿 · 提供资料</a><br>
+    return f"""<footer class="site-footer"><a href="{MAIN}/contribute/">宗亲投稿 · 宗亲共建</a><br>
 冯氏族谱 · 留存原谱，连接宗亲<br>
 全国数字族谱平台 · <a href="{MAIN}/">fengshizupu.com</a> · <a href="{MAIN}/about/">关于本站</a></footer>
 </body>
