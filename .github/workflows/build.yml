@@ -1,0 +1,47 @@
+name: build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          pip install --quiet pymupdf pillow
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk > /dev/null
+      - name: Download source PDFs
+        run: |
+          mkdir -p pdfs
+          python3 - << 'PYEOF'
+          import json, urllib.request
+          data = json.load(open("data/books.json", encoding="utf-8"))
+          for book in data["books"]:
+              for vol in book["volumes"]:
+                  name = f'pdfs/{book["slug"]}-{vol["id"]}.pdf'
+                  print("downloading", name)
+                  url = f'https://github.com/alititi-jackie/fengshizupu-zp2/releases/download/b-20261116/{book["slug"]}-{vol["id"]}.pdf'
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(req, timeout=600) as r, open(name, "wb") as f:
+                      f.write(r.read())
+          PYEOF
+      - name: Generate site
+        run: python3 scripts/generate.py
+      - name: Render page images
+        run: python3 scripts/render_pages.py --books data/books.json --pdf-dir pdfs --out site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
