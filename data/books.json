@@ -263,6 +263,107 @@
      "dl_mb": 15.8
     }
    ]
+  },
+  {
+   "slug": "zhutang-feng",
+   "title": "江苏宜兴祝堂冯氏家乘",
+   "province": "江苏",
+   "place": "宜兴祝堂",
+   "era": "民国三十年（1941）重辑",
+   "editors": "冯舜耕纂修",
+   "source": "上海图书馆藏本 · 维基共享资源（公有领域）",
+   "keywords": "江苏 宜兴 祝堂 冯氏家乘 民国 1941 大树堂 八卷",
+   "intro": "江苏宜兴祝堂冯氏家乘，八卷，民国三十年（1941）辛巳重辑，冯舜耕纂修，大树堂；卷首《接修谱序》记国难年间族人流寓沪上、辑谱存史。本站收录上海图书馆藏本影印，按扫描分四册，逐页在线连读。",
+   "volumes": [
+    {
+     "id": "vol1",
+     "name": "第一册",
+     "pages": 367,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Shanghai_%E7%A5%9D%E5%A0%82%E9%A6%AE%E6%B0%8F%E5%AE%B6%E4%B9%98.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 41.7
+    },
+    {
+     "id": "vol2",
+     "name": "第二册",
+     "pages": 367,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Shanghai_%E7%A5%9D%E5%A0%82%E9%A6%AE%E6%B0%8F%E5%AE%B6%E4%B9%98.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 34.0
+    },
+    {
+     "id": "vol3",
+     "name": "第三册",
+     "pages": 367,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Shanghai_%E7%A5%9D%E5%A0%82%E9%A6%AE%E6%B0%8F%E5%AE%B6%E4%B9%98.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 35.9
+    },
+    {
+     "id": "vol4",
+     "name": "第四册",
+     "pages": 367,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Shanghai_%E7%A5%9D%E5%A0%82%E9%A6%AE%E6%B0%8F%E5%AE%B6%E4%B9%98.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 41.8
+    }
+   ]
+  },
+  {
+   "slug": "shantian-feng",
+   "title": "湖南湘乡山田冯氏族谱",
+   "province": "湖南",
+   "place": "湘乡山田",
+   "era": "清（存卷）",
+   "editors": "作者不详",
+   "source": "上海图书馆藏本 · 维基共享资源（公有领域）",
+   "keywords": "湖南 湘乡 山田 冯氏族谱 清 存卷 冯子振 海粟",
+   "intro": "湖南湘乡山田冯氏族谱，清木活字本，作者不详；始迁祖冯益于北宋初迁湘乡山田，元代词人冯子振（海粟）即出此族。上海图书馆藏本仅存第七卷世系，本站据以收录，逐页在线连读。",
+   "volumes": [
+    {
+     "id": "vol1",
+     "name": "存卷",
+     "pages": 186,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Shanghai_%E5%B1%B1%E7%94%B0%E9%A6%AE%E6%B0%8F%E6%97%8F%E8%AD%9C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 18.0
+    }
+   ]
+  },
+  {
+   "slug": "yueyang-feng",
+   "title": "湖南岳阳冯氏族谱",
+   "province": "湖南",
+   "place": "岳阳",
+   "era": "民国二十五年（1936）续修",
+   "editors": "作者不详",
+   "source": "上海图书馆藏本 · 维基共享资源（公有领域）",
+   "keywords": "湖南 岳阳 冯氏族谱 民国 1936 宗图 续修",
+   "intro": "湖南岳阳冯氏族谱，民国二十五年（1936）续修，作者不详；上海图书馆藏本存卷为宗图，收上门、长房等派系图。本站据以收录，逐页在线连读。",
+   "volumes": [
+    {
+     "id": "vol1",
+     "name": "存卷",
+     "pages": 183,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Shanghai_%E5%B2%B3%E9%99%BD%E9%A6%AE%E6%B0%8F%E6%97%8F%E8%AD%9C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 20.7
+    }
+   ]
+  },
+  {
+   "slug": "suichuan-feng",
+   "title": "江西遂川冯氏族谱",
+   "province": "江西",
+   "place": "遂川",
+   "era": "民国三十七年（1948）修",
+   "editors": "作者不详",
+   "source": "上海图书馆藏本 · 维基共享资源（公有领域）",
+   "keywords": "江西 遂川 冯氏族谱 民国 1948 协和堂 不分卷",
+   "intro": "江西遂川冯氏族谱，不分卷，民国三十七年（1948）修，木活字本，协和堂，作者不详；始迁祖冯安常于宋时自丰城徙居遂川西赤石，谱存序、谱说、诰命、祠图、世系。本站收录上海图书馆藏本影印，逐页在线连读。",
+   "volumes": [
+    {
+     "id": "vol1",
+     "name": "全一册",
+     "pages": 170,
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shanghai_%E9%81%82%E5%B7%9D%E9%A6%AE%E6%B0%8F%E6%97%8F%E8%AD%9C.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "dl_mb": 16.3
+    }
+   ]
   }
  ]
 }
