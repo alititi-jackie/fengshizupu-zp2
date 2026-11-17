@@ -102,54 +102,6 @@ body.scrollmode .readerbar{position:sticky;top:48px;z-index:40;box-shadow:0 2px 
 @media(max-width:650px){
   }
 
-/* --- 主站主页同款栏目样式（自 fengshizupu.com 主页 CSS 复制，2026-11-16；与主站保持一致） --- */
-.hero { padding:26px 0 }
-.hero h1 { white-space:nowrap;margin:12px 0 16px;font-size:min(44px,9.52381vw - 3.04762px) }
-.hero p { margin:0 0 16px }
-.hero .eyebrow { margin:0 }
-.eyebrow { color:#742f32;letter-spacing:3px }
-.card,article { background:#fffdf7;border:1px solid #ded6c6;border-radius:12px;margin:18px 0;padding:24px }
-.badge { background:#eee4ce;border-radius:20px;padding:3px 10px;font-size:14px }
-@media (max-width:650px) {
-.hero { padding:16px 0 }
-}
-.enping-card { color:inherit;background:#fffdf7;border:1px solid #ded6c6;border-radius:12px;align-items:center;gap:22px;margin:6px 0 24px;padding:22px 26px;text-decoration:none;display:flex }
-.enping-seal { color:#faf3e6;background:#742f32;border-radius:12px;flex:none;justify-content:center;align-items:center;width:88px;height:88px;font:52px Georgia,Songti SC,serif;display:flex }
-.enping-body { flex-direction:column;gap:2px;min-width:0;display:flex }
-.enping-title { color:#2b2320;font-family:Georgia,Songti SC,serif;font-size:25px;font-weight:700 }
-.enping-motto { color:#966f3e;letter-spacing:2px;font-size:16px }
-.enping-intro { color:#5a5248;font-size:16.5px }
-.enping-btn { color:#fff;background:#742f32;border-radius:999px;flex:none;margin-left:auto;padding:11px 22px;font-size:17px }
-.enping-more { display:none }
-.hero-search { flex-wrap:nowrap;gap:8px }
-.hero-search input { background:#fff;border:1.5px solid #742f32;border-radius:10px;flex:auto;min-width:0;padding:12px 14px;font-size:16px }
-.hero-search input:focus-visible { outline:revert;outline-offset:revert }
-.hero-search button { border:0;border-radius:10px;flex:none;padding:12px 20px;font-size:16px }
-@media (max-width:650px) {
-.enping-card { flex-wrap:nowrap;align-items:flex-start;gap:14px;padding:16px 18px }
-.enping-seal { border-radius:10px;width:52px;height:52px;font-size:30px }
-.enping-title { font-size:20px }
-.enping-motto { font-size:14px }
-.enping-intro { font-size:15px }
-.enping-btn { display:none }
-.enping-more { color:#742f32;font-weight:600;display:inline }
-}
-.home-news { background:#fffdf7;border:1px solid #ded6c6;border-radius:12px;margin:18px 0;padding:20px 24px }
-.home-news-head { justify-content:space-between;align-items:baseline;gap:16px;display:flex }
-.home-news-head h2 { margin:0;font-size:24px }
-.home-news-head a { white-space:nowrap;font-size:15px;text-decoration:none }
-.home-news-item { margin:10px 0 0 }
-@media (max-width:650px) {
-.home-news { padding:16px 18px }
-.home-news-head h2 { font-size:20px }
-}
-.regional-search small { margin-top:6px;display:block }
-.site-theme .regional-search+h1 { margin-top:24px }
-@media (max-width:650px) {
-.site-theme .regional-search+h1 { margin-top:18px }
-}
-
-
 /* --- 阅读页顶部：本册 PDF 下载 --- */
 .dlrow{max-width:1160px;margin:0 auto;text-align:left;padding:8px 12px 0}
 .dlrow a{color:var(--red);text-decoration:none;font-size:14px}
