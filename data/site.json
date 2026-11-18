@@ -3,7 +3,8 @@
   "downloads": "https://github.com/alititi-jackie/fengshizupu-zp2/releases/download/b-20261116",
   "pagination": {
     "page": 2,
-    "total": 2,
-    "previous": "https://zp1.fengshizupu.com/"
+    "total": 3,
+    "previous": "https://zp1.fengshizupu.com/",
+    "next": "https://zp3.fengshizupu.com/"
   }
 }
